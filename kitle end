@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+
+public class main {
+    public static void main(String[] args) {
+
+
+        double kilo, boy;
+
+        double kitleend;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Kilonuzu giriniz : ");
+        kilo = input.nextDouble();
+
+        System.out.print("Boyunuzu giriniz: ");
+        boy = input.nextDouble();
+
+        kitleend = kilo / (boy * boy);
+
+        System.out.print("Kitle endeks oranınınız: " + kitleend);
+    }
+}
